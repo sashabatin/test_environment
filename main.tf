@@ -59,3 +59,9 @@ resource "azurerm_linux_virtual_machine" "Ubuntu" {
     version   = "latest"
   }
 }
+
+resource "azurerm_resource_group" "RG2" {
+  name     = "resource-group2"
+  location = "West Europe"
+}
+
