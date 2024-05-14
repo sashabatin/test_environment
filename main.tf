@@ -61,3 +61,11 @@ resource "azurerm_linux_virtual_machine" "Ubuntu" {
 }
 
 
+<<<<<<< HEAD
+=======
+resource "azurerm_resource_group" "RG2" {
+  name     = "resource-group2"
+  location = "West Europe"
+}
+
+>>>>>>> 9567ea3 (add)
